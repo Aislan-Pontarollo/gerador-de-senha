@@ -1,0 +1,89 @@
+/*?---------------------------- Parâmetros Padrões ------------------------------------*/
+* {font-family: sans-serif; width: 100%; margin: 0 auto; box-sizing: border-box;}
+body {
+    background-color: #181818;
+    height: 100vh;
+    display: flex;
+    Justify-content: center; align-items: center; flex-direction: column;
+}
+/*?---------------------------- iDs ------------------------------------*/
+#logo {max-width: 480px; margin-bottom: 24px;}
+
+/*?---------------------------- Class ----------------------------------*/
+
+.container-input{max-width: 480px; margin: 14px 0;}
+.container-input span{color: #fff; font-size: 22px;}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    background-color: #DFDFDF;
+    height: 18px; 
+    margin-top: 8px;
+    border-radius: 7px;
+}
+
+.button-action{
+    background-color: #3EB72B; color: rgb(255, 255, 255)020;
+    height: 48px; 
+    border: 0; border-radius: pointer;
+    margin-top: 40px;
+    font-weight: bold; 
+    font-size: 18px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container-password {
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.password {
+    height: 60px;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #313131;
+    transition: transform 0.5s;
+}
+
+.password:hover{
+    transform: scale(1.05);
+}
+
+.tooltrip {
+    color: #fff;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgb(15,15,15);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.container-password:hover .tooltrip{
+    visibility: visible;
+}
+
+/*?---------------------------- Class Adition -----------------------------*/
+
+.hide{display: none;}
